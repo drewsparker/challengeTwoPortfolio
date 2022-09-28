@@ -31,3 +31,5 @@ This section used special flex properties in order to showcase the cards in appr
 The 'Contact Me' section contains all of the users various links to contact. I used special CSS flex direction properties in order to ensure the orderly view of these contact links.
 
 <img src = "assets/images/contact-me.png">
+
+[GitHub Challenge 2 Live Site](https://drewsparker.github.io/challengeTwoPortfolio)
