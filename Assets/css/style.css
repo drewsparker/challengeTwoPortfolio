@@ -14,14 +14,14 @@ header {
   padding-top: 1%;
   padding-right: 1%;
   padding-bottom: 1%;
-  background-color: --darkgray;
-  color: --darkgray;
+  background-color: var(--darkgray);
+  color: var(--darkgray);
 }
 
 header>h1 {
   font-size: 200%;
   color: 31343D;
-  background-color: --lightblue;
+  background-color: var(--lightblue);
   padding-left: 5%;
   padding-right: 1%;
 }
@@ -36,7 +36,7 @@ subtitle>h2 {
   right: 40px;
   font-size: 200%;
   color: 31343D;
-  background-color: --lightblue;
+  background-color: var(--lightblue);
   align-items: right;
   padding-left: 5px;
   padding-right: 5px;
@@ -54,11 +54,11 @@ nav ul {
 }
 
 nav a {
-  color: --lightblue;
+  color: var(--lightblue);
   padding-bottom: 3px;
   padding-left: 4px;
   padding-right: 4px;
-  border-bottom: 2px solid --lightblue;
+  border-bottom: 2px solid var(--lightblue);
   text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ section {
 
 section>h1 {
   text-align: right;
-  color: --darkgray;
+  color: var(--darkgray);
   font-size: 200%;
   padding-right: 10px;
   flex-wrap: wrap;
@@ -95,7 +95,7 @@ div.card-textbox>h3 {
 section>div {
   display: flex;
   flex-direction:column;
-  border-left: 2px solid --darkgray;
+  border-left: 2px solid var(--darkgray);
   padding-left: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -110,7 +110,7 @@ section>div.cards {
 
 div.card-large {
   border-style: solid;
-  border-color: --lightblue;
+  border-color: var(--lightblue);
   border-width: 2px;
   position: relative;
   margin-top: 5px;
@@ -128,14 +128,14 @@ div.card-large>a, div.card-large>a>img {
 div.card-textbox {
   position: absolute;
   bottom: 10px;
-  background-color: --lightblue;
+  background-color: var(--lightblue);
   padding: 5px;
 }
 
 div.card-small {
   border-style: solid;
   border-width: 2px;
-  border-color: --lightblue;
+  border-color: var(--lightblue);
   position: relative;
   margin: 10px;
   flex: 0 0 calc(50% - 20px);
@@ -163,9 +163,9 @@ ul.links>a {
   display: inline-block;
   width: auto;
   justify-content: space-between;
-  border-bottom: 2px solid --darkgray;
+  border-bottom: 2px solid var(--darkgray);
   text-decoration: none;
-  color: --darkgray;
+  color: var(--darkgray);
   height:fit-content;
 }
 
